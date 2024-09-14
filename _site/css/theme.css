@@ -1,0 +1,108 @@
+:root{
+    --primary-color: #389B59;
+    --secondary-color: #FFFDE7;
+    --font-size: 1rem;
+    --border-radius: 30px;
+    --border: 1px solid var(--primary-color);
+}
+
+
+H1{
+    font-family: "Source Code Pro", monospace;
+    color: var(--primary-color);
+    margin: 10px 0 10px 0;
+}
+
+H2{
+    font-family: "Source Code Pro", monospace;
+    color: var(--primary-color);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p{
+    font-family: "Source Code Pro", monospace;
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    padding-bottom: 15px;
+    font-size: 1rem;
+}
+
+a{
+    font-family: "Source Code Pro", monospace;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a.tag{
+    font-family: "Source Code Pro", monospace;
+    color: var(--primary-color);
+    font-size: 1rem;
+    padding: 0px 5px;
+    border: var(--border);
+    border-radius: 30px;
+    background-color: transparent;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+button.link{
+    font-family: "Source Code Pro", monospace;
+    color: var(--primary-color);
+    font-size: 1rem;
+    padding: 0px 5px;
+    border: var(--border);
+    border-radius: 5px;
+    background-color: transparent;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+div.tags{
+    padding-top: 10px;
+}
+
+
+button.tag{ 
+    font-family: "Source Code Pro", monospace;
+    color: var(--primary-color);
+    font-size: 1rem;
+    padding: 0px 5px;
+    border: var(--border);
+    border-radius: 30px;
+    background-color: transparent;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #FFFDE7;
+    border-radius: 30px;
+}
+
+::-moz-selection { /* Code for Firefox */
+    color: var(--secondary-color);
+    background: var(--primary-color);
+  }
+  
+  ::selection {
+    color: var(--secondary-color);
+    background: var(--primary-color);
+  }
